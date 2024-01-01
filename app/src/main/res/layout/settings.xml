@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="390dp"
+    android:layout_height="490dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="70dp"
+    android:background="@drawable/setting_bg">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/close"
+        android:contentDescription="@string/close_ui" />
+
+    <ImageView
+        android:id="@+id/music_on"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/on"
+        android:contentDescription="@string/music_toggle_on" />
+
+    <ImageView
+        android:id="@+id/music_off"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/off"
+        android:visibility="invisible"
+        android:contentDescription="@string/music_toggle_off" />
+
+    <ImageView
+        android:id="@+id/sounds_on"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/on"
+        android:contentDescription="@string/sound_toggle_on" />
+
+    <ImageView
+        android:id="@+id/sounds_off"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="210dp"
+        android:background="@drawable/off"
+        android:visibility="invisible"
+        android:contentDescription="@string/sound_toggle_off" />
+
+    <ImageView
+        android:id="@+id/notification_on"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/sett12"
+        android:contentDescription="@string/post_notification_toggle" />
+
+
+
+</RelativeLayout>

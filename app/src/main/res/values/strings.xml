@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">M7 FunSlots</string>
+    <string name="coins">Coins</string>
+    <string name="win_splash">Win</string>
+    <string name="win_total_coins">win total coins</string>
+    <string name="item_place_holder">Item Place Holder</string>
+    <string name="close_ui">Close UI</string>
+    <string name="music_toggle_on">Music Toggle On</string>
+    <string name="music_toggle_off">Music Toggle Off</string>
+    <string name="sound_toggle_on">Sound Toggle On</string>
+    <string name="sound_toggle_off">Sound Toggle Off</string>
+    <string name="post_notification_toggle">Post Notification Toggle</string>
+    <string name="amount_to_bet">Amount to Bet</string>
+    <string name="default_bet">5</string>
+    <string name="increase_bet">Increase Bet</string>
+    <string name="decrease_bet">Decrease Bet</string>
+    <string name="spin_wheel">Spin Wheel</string>
+    <string name="settings_ui">Settings UI</string>
+    <string name="starting_energy">1000</string>
+    <string name="spin_marker">Spin Marker</string>
+</resources>
